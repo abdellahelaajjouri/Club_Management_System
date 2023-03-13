@@ -1,0 +1,12 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+img[alt~="clubLogo"],img[alt~="countryFlag"] {
+  width: 50px;
+}
+
+.Btn{
+  width: 40px;
+    height: 40px;
+}

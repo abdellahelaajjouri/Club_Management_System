@@ -1,0 +1,28 @@
+* Create CRUD of clubs : 
+- use api express js and database mysql
+- use Angular cli 9 with Angular Material UI 
+
+* API
+POST : list-clubs
+DELETE : delete-club/:id ( on delete any row you shold be soft update columns ( deleted_at:date , trashed_id:number ) at you query )
+POST : insert-clubs
+PUT : update-clubs/:id
+GET : list-country/:query?
+
+* Angular 
+Struture of folder Clubs : 
+
+- clubs -> components
+        -> interface
+        -> service ( Observable , HttpClient )
+        -> dialogs
+        -> clubs.component[ .html | .ts | .css ]
+        -> clubs-routing.module.ts
+        -> clubs.module.ts
+
+
+Max size of image is 100 KB
+Dropdown columns at you form is competitions, sexe, type, categories and country ( foreign key with table clubs )
+Use pagenation of listing the clubs 
+
+
